@@ -1,12 +1,8 @@
-import sqlite3
-import os
+import sqlite3, os, readchar, platform, shutil
 from rich.console import Console
 from rich.table import Table
 from rich.align import Align
 from rich.panel import Panel
-import readchar
-import platform
-import shutil
 
 console = Console()
 
